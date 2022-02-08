@@ -227,7 +227,7 @@ int main(void)
     char input[MAX_LIMIT];
     printf("Tervetuloa peliin!\n");
     while(1) {
-        printf("\nA) Lisää hahmo\nH) Hyökkää\nL) Tulosta hahmot\nW) Tallenna hahmot tiedostoon\nO) Lataa pelin hahmot tiedostosta\nQ) Poistu ohjelmasta\n");
+        printf("\nA) Lisää hahmo (syntaksi: A nimi elämät ase iskupisteet)\nH) Hyökkää (syntaksi: H hykkääjä kohde)\nL) Tulosta hahmot (syntaksi: L)\nW) Tallenna hahmot tiedostoon (syntaksi: W tiedostonimi.txt)\nO) Lataa pelin hahmot tiedostosta (syntaksi: O tiedostonimi.txt)\nQ) Poistu ohjelmasta (syntaksi: Q)\n");
         printf("Mitä haluat tehdä: ");
         fgets(input, MAX_LIMIT, stdin);
         if (input[0] == 'A') {
